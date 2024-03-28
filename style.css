@@ -1,0 +1,117 @@
+.food{
+    width: 90%;
+    margin: 4%;
+    border-radius: 10px;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+.main{
+    background-color: hsl(0, 0%, 100%);
+    margin: 5% 20%;
+    border-radius: 10px;
+    height: 1700px;
+    color: hsl(24, 5%, 18%);
+}
+.heading {
+    margin: 0 0 2% 3%;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.yakkanti p{
+    margin: 0 8% 4% 4%;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.b1{
+    background-color: hsl(330, 100%, 98%);
+    margin: 4%;
+    height: 150px;
+}
+li{
+    margin: 10px;
+    font-family: "Outfit", sans-serif;
+}
+h3{
+    margin-left: 6%;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .Ing li::before,.b1 li::before {
+    content: "•";
+    margin-right: 30px; /* Adjust this value to change the space between the bullet and the list item */
+  }
+  span{
+    font-family: "Outfit", sans-serif;
+    color:hsl(30, 10%, 34%);
+    font-weight: 600;
+  }
+  h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    margin: 4% 4% 0 4%;
+    color: hsl(14, 45%, 36%);
+  }
+  .Ing li{
+    margin: 2.5% 4%;
+  }
+hr{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+.nut p{
+    margin: 2% 4% 2% 4%;
+    font-family: "Outfit", sans-serif;;
+}
+.vals span{
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    margin-left: 50%;
+    color: hsl(30, 10%, 34%);
+}
+.pra{
+    margin-bottom: 10px;
+}
+.one1,.one2,.one3,.one4{
+    width: 50px;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+.two2,.two3,.two4,.two5{
+    width: 50px;
+    height: 10px;
+    margin-top: 1%;
+    margin-left: 35%;
+}
+.last,.last1,.last2,.last3{
+    display: flex;
+}
+.one1 p,.two2 p{
+    margin: 20px 0 20px 0;
+}
+.two2 p,.two3 p,.two4 p,.two5 p{
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+.mahi li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+  }
+  h3{
+    color: hsl(332, 51%, 32%);
+  }
+  .why{
+    border: none;  
+}
